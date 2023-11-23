@@ -16,7 +16,6 @@ class App
         g.closePath();
         g.stroke();
         g.fill()
-        g.fillStyle = "#0b1017"
         g.stroke();
     }
 }
