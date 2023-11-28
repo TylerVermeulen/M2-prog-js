@@ -10,39 +10,53 @@ class App
         console.log(canvas)
         g.beginPath();
         g.fillStyle = "#662b2b"
-        g.moveTo(60,40);
-        g.lineTo(20,30);
-        g.lineTo(30,10);
-        g.lineTo(70,20);
-        g.lineTo(60,40);
+        g.moveTo(600,400);
+        g.lineTo(200,300);
+        g.lineTo(300,100);
+        g.lineTo(700,200);
+        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill();
+        
         g.beginPath();
         g.fillStyle = "#640078"
-        g.lineTo(70,20);
-        g.lineTo(80,30);
-        g.lineTo(60,40);
+        g.lineTo(700,200);
+        g.lineTo(800,300);
+        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill();
+        
         g.beginPath();
-        g.lineTo(60,60);
-        g.lineTo(80,50);
-        g.lineTo(80,30);
-        g.lineTo(60,40);
+        g.lineTo(600,600);
+        g.lineTo(800,500);
+        g.lineTo(800,300);
+        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill();
+
         g.beginPath();
         g.fillStyle = "#9500b3"
-        g.lineTo(20,30);
-        g.lineTo(20,50);
-        g.lineTo(60,60);
-        g.lineTo(60,40);
+        g.lineTo(200,300);
+        g.lineTo(200,500);
+        g.lineTo(600,600);
+        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill();
+
+        g.beginPath();
+        g.fillStyle = "#f2eb27"
+        g.moveTo(550,520);
+        g.lineTo(400,480);
+        g.lineTo(400,400);
+        g.lineTo(550,440);
+        g.lineTo(550,520);
+        g.closePath();
+        g.stroke();
+        g.fill()
     }
 }
 let app = new App();
