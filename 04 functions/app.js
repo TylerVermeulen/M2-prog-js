@@ -56,15 +56,35 @@ class App
     newClassFunction(){
         console.log("hello world in de nieuweClassFunction");
 
-        }
+    }
     
-            anotherFunctionWithArguments(aArgument){
+    anotherFunctionWithArguments(aArgument){
         console.log("kom maar met je argument");
         console.log("hier");
         console.log(aArgument);
-        }
+    }
+    itsame(){
+        console.log("MARIO!!")
+    }
+    Furina(){
+        let funny = "BWAHAHA!!";
+        return funny;
+    }
+    rekenen(x,a){
+        let y = x + a
+        return y
+    }
+    goedecode(){
+        console.log("ik kan goed coden");
+    }
 }
 let app = new App();
 app.runApplication();
 app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is iets...");
+app.itsame();
+let heelleuk = app.Furina();
+console.log(heelleuk);
+let antwoord = app.rekenen(89,314);
+console.log(antwoord)
+app.goedecode();
